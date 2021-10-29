@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Como Funciona a Internet</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>INFO ART</h1>
+        <p>Projeto para prática da HTML das CSS</p>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" target="_self" rel="author">Home</a></li>
+                <li><a href="artigos.html" target="_self" rel="author">Artigos</a></li>
+                <li><a href="https://github.com/devlucaspassos" target="_blank" rel="external">Github</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <article class="artigo">
+            <h1>
+                Como funciona a internet?
+            </h1>
+            <img class="internet" src="imagens/como-funciona-a-internet/internet.jpg" alt="internet">
+            <p>
+                Após falarmos um pouco sobre a criação da internet e sua história ao decorrer dos anos neste <a href="historia-da-internet.html">Artigo</a>, agora vamos falar um pouco sobre como a internet funciona e como ela chega até você.
+            </p>
+            <h2>
+                Bits e Bytes
+            </h2>
+            <img class="bits-bytes" src="imagens/como-funciona-a-internet/bits-e-bytes.jpg" alt="bits-e-bytes">
+            <p>
+                O <strong>bit (simplificação para dígito binário, em inglês, binary digit)</strong> é a menor unidade de informação que pode ser armazenada ou transmitida, usada na Computação e na Teoria da Informação. <strong>Um bit pode assumir somente 2 valores: 0 ou 1</strong>, corte ou passagem de energia, respectivamente.
+            </p>
+            <img class="diferenca-bit-byte" src="imagens/como-funciona-a-internet/bit-and-byte.png" alt="diferença-bit-e-bytes">
+            <p>
+                O <strong>byte</strong> é um dos tipos de dados integrais em computação. É usado com frequência para especificar o tamanho ou quantidade da memória ou da capacidade de armazenamento de um certo dispositivo, independentemente do tipo de dados.
+            </p>
+            <p>
+                A codificação comum de <strong>byte</strong> é de <strong>8 bits</strong>, embora possa ter outras quantidades, como 7. O byte de 8 bits é mais corretamente chamado de <strong>octeto</strong>
+            </p>
+            <h2>Multiplos de byte</h2>
+            <p>
+                No dia a dia, estamos bem familiarizados com a memoria de armazenamento de certos disposivitos, por exemplo, um celular com capacidade de armazenamento de <strong>128GB</strong> ou um cartão de memória de capacidade de <strong>64GB</strong>. Porém muitos são sabem o que é um <strong>gigabyte (GB)</strong>.</p>
+            <p>
+                O <strong>byte</strong>, que como falamos é um <strong>conjunto de 8 bits</strong>, tem seus multiplos, sendo alguns dele o <strong>kilobyte (KB)</strong>, <strong>megabyte (MB)</strong> ou como citamos acima, o <strong>gigabyte (GB)</strong>. 1 kilobyte (KB) por exemplo, é um conjunto de 1024 bytes (2<sup>10</sup>) bytes, já o megabyte (MB) é formado por 1024 kilobytes (KB) (2<sup>20</sup>) bytes, assim por diante.
+            </p>
+            <aside>
+                <p class="multiplos-bit-bytes">
+                    Veja a seguir alguns multiplos de bit/bytes:
+                </p>
+            <ul class="lista-multiplos">
+                <li>
+                    1 Byte = 8 bits (Binary Digit - Dígito binário)
+                </li>
+                <li>
+                    1 megabyte (MB ou Mbytes) = 1024 kilobytes
+                </li>
+                <li>
+                    1 gigabyte (GB ou Gbytes) = 1024 megabytes
+                </li>
+                <li>
+                    1 terabyte (TB ou Tbytes) = 1024 gigabytes
+                </li>
+                <li>
+                    1 petabyte (PB ou Pbytes) = 1024 terabytes
+                </li>
+                <li>
+                    1 exabyte (EB ou Ebytes) = 1024 petabytes
+                </li>
+                <li>
+                    1 zettabyte (ZB ou Zbytes) = 1024 exabytes
+                </li>
+                <li>
+                    1 yottabyte (YB ou Ybytes) = 1024 zettabytes
+                </li>
+            </ul>
+            <p>
+                <strong class="minusculo-maiusculo">Atenção</strong><strong>: Existe uma pequena diferença, sendo TB (Terabytes) usado para armazenamento e tb (Terabits) usado quando se fala de redes.</strong>
+            </p>
+        </aside>
+            <h2>    
+                Sinais
+            </h2>
+            <p>
+                Mas é claro que o que circula dentro do computador não são pequenos números, <strong>são ondas (sinais)</strong>. No caso de equipamentos eletrônicos processados, as ondas se parecem com as representadas a seguir. 
+            </p>
+            <img class="onda-digital" src="imagens/como-funciona-a-internet/onda-digital.png" alt="onda-digital">
+            <p>
+                A maioria das transmissões entre continentes não é realizada pelos Satélites, os satélites possuem uma limitação de tráfego e sofrem muito com interferências, e é por isso que os cabos de <strong>fibra ótica</strong> devem ser passados pelos <strong>oceanos</strong>.
+            </p>
+            <a href="https://www.submarinecablemap.com" target="_blank" rel="external"><img class="cabos-submarinos" src="imagens/como-funciona-a-internet/submarine-cables.png" alt="cabos-submarinos"></a>
+            <p>
+                Quando esses cabos chegam ao continente, eles se interligam a outros sistemas de comunicação. Alguns dos sistemas utilizados sempre foram os <strong>sistemas telefonia tradicional</strong>, os sistemas de <strong>TV a cabo</strong>, os <strong>sinais via satélite</strong> e até as simples <strong>redes de radiofrequência</strong>. 
+            </p>
+            <div class="video-cabos-submarinos">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DKHZKTRyzeg?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>
+                O problema é que os sistemas diferentes transmitem sinais em formatos diferentes. Isso dificultaria a comunicação entre pontos, se não fosse um processo de “conversão”, mais conhecido como <strong>MODULAÇÃO</strong>.
+            </p>
+            <img class="analogico-digital" src="imagens/como-funciona-a-internet/sinal-analogico-vs-digital.jpg" alt="sinal-analoógico-vs-sinal-digital">
+            <p>
+                De uma maneira bem resumida, <strong>modular</strong> é conseguir ler uma onda no formato A compatível com um tipo de sistema de comunicação e convertê-la para um formato B, compatível com outro tipo de sistema. E é exatamente para isso que servem aqueles aparelhos que você instala em sua casa para começar a receber Internet doméstica.
+            </p>
+            <img class="gateway" src="imagens/como-funciona-a-internet/gateway.jpg" alt="gateway">
+            <p>
+                Uma das funções desse aparelho é <strong>MODULAR</strong> os sinais que saem e <strong>DEMODULAR</strong> os sinais que chegam. E é por isso que chamamos esse aparelho de <strong>MODEM</strong>.  A função <strong>MODEM</strong> desses aparelhos é apenas uma das características do produto. Na verdade, esse dispositivo é um <strong>GATEWAY</strong>, que vai se ligar aos <strong>ROTEADORES</strong> do seu provedor de acesso.
+            </p>
+            <p>
+                Para enviar um sinal de um dispositivo A para um dispositivo B, podemos ter várias rotas. Quem vai definir a melhor rota são os <strong>ROTEADORES</strong> que compõem a rede. Os pacotes de dados podem chegar em seu computador por diversas rotas diferentes, tudo vai depender do tráfego no momento da transmissão.
+            </p>
+            <h2>
+                O cliente e o servidor
+            </h2>
+            <p>
+                Imagine que você está no seu celular tentando acessar um site. O seu celular é o <strong>CLIENTE</strong> e está pedindo algo pela Internet. Ao descobrir onde está o site, a máquina que ele está hospedando será o <strong>SERVIDOR</strong>, que vai fornecer os arquivos que compõem o site. O caminho que vai criar uma ligação entre o servidor e você (cliente) vai ser decidido pelos <strong>roteadores da Internet</strong>.
+            </p>
+            <img class="cliente-e-servidor" src="imagens/como-funciona-a-internet/cliente-e-servidor.png" alt="cliente-e-servidor">
+            <p>
+                Na Internet existem vários servidores:
+            </p>
+            <ul class="lista-de-servidores">
+                <li>
+                    Servidor de site (<strong>WebHost</strong>)
+                </li>
+                <li>
+                    Servidor de streaming
+                </li>
+                <li>
+                    Servidor de arquivos
+                </li>
+                <li>
+                    Servidor de e-mail
+                </li>
+                <li>
+                    Entre outros...
+                </li>
+            </ul>
+            <p>
+                Quando você “se conecta” à Internet, recebe uma identificação única. Essa identificação é um <strong>ENDEREÇO IP (TCP/IP)</strong>
+            </p>
+            <p>
+                Os IPs mais antigos <strong>(IPv4)</strong> usam 4 octetos, que são conjuntos de 8 bits separados por pontos, totalizando 32 bits por identificador.
+                <br>
+                <strong>Ex: 123.45.67.89 = 01111011.00101101.01000011.01011001</strong>
+            </p>
+            <p>
+                Os IPs mais modernos <strong>(IPv6)</strong>, usam 128 bits ao todo (o que é 4x mais bits que o IPv4).
+                <br> <strong>Ex: 2001:0db8:85a3:08d3:1319:8a2e:0370:7344</strong>
+            </p>
+            <h3>
+                DNS (Domain Name System)
+            </h3>
+            <img class="dns" src="imagens/como-funciona-a-internet/DNS-Domain-Name-System.png" alt="Domain-Name-System"> 
+            <p>
+                <strong>Domain Name System (DNS)</strong>, ou sistema de nomes de domínio. Eles são como grandes “listas telefônicas”, criando uma ligação entre o nome do site e o número de IP relacionado a ele
+            </p>
+              
+            <h3>
+                Domínio e Hospedagem
+            </h3>
+            <p>
+                Quando você acessa um site, precisa saber uma <strong>URL (Uniform Resource Locator)</strong> para poder acessá-lo. A parte principal dessa <strong>URL</strong> é o <strong>domínio</strong>.
+            </p>
+            <img class="domain-img" src="imagens/como-funciona-a-internet/domain.jpg" alt="domain">
+            <p>
+                O <strong>domínio</strong> é um nome único que vai conseguir identificar o seu servidor ou as suas páginas. Para conseguir um domínio, você deve pagar pelo direito de usá-lo por um período mínimo de 1 ano. 
+            </p>
+            <h2>TLD (Top Level Domain)</h2>
+            <img class="top-level-domain" src="imagens/como-funciona-a-internet/top-level-domain.jpg" alt="Top-Level-Domain">
+            <p>
+                <strong>.com</strong>, <strong>.gov.br</strong>, <strong>.edu.br</strong>. Essas terminações, são chamadas de <strong>TLD (Top Level Domain)</strong>. indicam tecnicamente que o site é de uma instituição <strong>comercial</strong>,<strong> governamental</strong>, <strong>educacional</strong>, <strong>ONGs</strong>, <strong>etc</strong>.
+            </p>
+            <h3>
+                TLD (Top Level Domain)
+            </h3>
+            <p>
+                <strong>GTLD (Generic top-level domain):</strong> sem indicação de país. Alguns dos domínios genéricos são <strong>.com</strong>, <strong>.net</strong>, <strong>.gov</strong>, <strong>.org</strong>, <strong>.io</strong>, <strong>.info</strong>, <strong>.online</strong>, <strong>.store</strong>, etc.
+            </p>
+            <p>
+                <strong>ccTLD: (Country code top-level domain):</strong> São <strong>TLDs</strong> com designação do país. Alguns dos domínios desse tipo são <strong>.com.br</strong>, <strong>.edu.us</strong>, <strong>.co.fr</strong>, <strong>.jp</strong>, <strong>.es</strong>, etc.
+            </p>
+            <h2>
+                Sub-domínio
+            </h2>
+            <p>
+                <strong>WWW</strong> é um subdomínio que aponta diretamente para o seu servidor web padrão e não faz parte do domínio.
+            </p>
+            <img class="sub-dominio" src="imagens/como-funciona-a-internet/sub-dominio.jpeg" alt="sub-dominio">
+            <p>Exemplos de <strong>sub-domínio</strong></p>
+            <ul class="sub-dominio-lista" >
+                <li>
+                    <a href="https://www.google.com">www.google.com</a> Dá acesso ao site principal do <strong>Google</strong>
+                </li>
+                <li>
+                    <a href="https://images.google.com">images.google.com</a> Dá acesso ao <strong>Google Imagens</strong>
+                </li>
+                <li>
+                    <a href="https://maps.google.com">maps.google.com</a> Dá acesso ao <strong>Google Maps</strong>
+                </li>
+                <li>
+                    <a href="https://mail.google.com">mail.google.com</a> Dá acesso ao <strong>Gmail</strong>
+                </li>
+            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+        </article>
+    </main>
+    <footer>
+        <p> &copy; 2021 Lucas Passos | Projeto de estudos | Versão 0.0.3 Todas as imagens, vídeos e etc são marcas registradas dos seus respectivos proprietários.</p>
+    </footer>
+    
+</body>
+</html>

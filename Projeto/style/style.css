@@ -1,0 +1,629 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Odalisque-rgl';
+    src: url(../fonts/odalisque-regular.ttf);
+}
+@font-face {
+    font-family:'urubus-bold' ;
+    src: url(../fonts/urubus-bold.ttf);
+}
+@font-face {
+    font-family:'Lemon-milk' ;
+    src: url(../fonts/lemon-milk-font/LemonMilkMedium-mLZYV.otf);
+}
+:root {
+    --cor1: #077187;
+    --cor2: #074F57;
+    --cor3: #9ECE9A;
+    --cor4: #FF9F1C;
+    --cor5: #ffa01cce;
+    --cor6: #ffa01cb9;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-header: 'Urubus-bold';
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: var(--cor3);
+}
+.header {
+    background-image: linear-gradient(-45deg, var(--cor1), var(--cor2));
+    min-height: 250px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    padding: 20px;
+
+}
+.header h1 {
+    text-align: left;
+    font-size: 6em;
+    font-family:var(--fonte-header) ;
+    color: #fff;
+    padding: 5px;
+}
+.header p {
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.1em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.473);
+    font-family: 'Lemon-milk';
+}
+.menu ul {
+    text-align: right;
+    margin-top: 20px;
+}
+.menu li {
+    display: inline;
+    padding: 10px;
+    background-color: #e2fadbcc;
+    margin-left: 10px;
+    border-radius: 15px 0px 15px 0px;
+    font-size: 1.3em;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.274);
+    font-family: var(--fonte-header);
+}
+.menu li:hover {
+    background-color: #e2fadb80;
+    transition-duration: 0.5s;
+}
+.menu a {
+ text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.418);
+}
+.menu a:hover {
+    color: var(--cor1);
+}
+main {
+    background-color:#fff ;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+    border-radius: 0px 0px 10px 10px;
+}
+.artigo {
+    margin: auto;
+}
+ .artigo h1 {
+    background-color: var(--cor4);
+     margin-top: 40px;
+     color: #fff;
+     font-size: 2.2em;
+     padding:10px;
+     border-radius: 15px 0px 15px 0px;
+     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.295);
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+}
+.artigo h2 {
+    margin-top: 30px;
+    color: #fff;
+    background-color: var(--cor5);
+    font-size: 1.8em; 
+    border-radius: 15px 0px 15px 0px;
+    padding-left: 10px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.295);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+}
+.artigo h3 {
+    margin-top: 30px;
+    color: #fff;
+    background-color: var(--cor6);
+    font-size: 1.3em; 
+    border-radius: 15px 0px 15px 0px;
+    padding-left: 8px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.295);
+}
+.artigo p {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 20px;
+    text-indent: 30px;
+}
+.artigo img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.artigo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #435058;
+    background-color: #dbdbdb54;
+    border-radius: 10px;
+}
+.artigo a:hover {
+    text-decoration: underline;
+
+}
+footer {
+    min-height: 100px;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.473);
+    font-size: 0.9em;
+}
+hr {
+    margin: 20px 0px;
+}
+.lista-fontes {
+    padding: 10px;
+    font-weight: bold;
+    display: inline;
+    padding: 10px;
+}
+.lista-fontes li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+/* propriedades dos elementos relacionados a página inicial */
+.html5-css3 {
+    max-width: 800px;
+    max-height: 579px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+/* propriedades dos elementos da página "artigos" */
+
+/*propriedade do artido de cores*/
+.header-psicologia-das-cores {
+    max-width: 800px;
+    max-height: 420px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.emocoes {
+    max-width: 768px;
+    max-height: 768px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.video-psicologia-das-cores {
+    background-color: var(--cor2);
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56%;
+
+}
+.video-psicologia-das-cores iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    padding: 0px 20px 0px 20px;
+}
+/*propriedades da página de combinações de cores*/
+.header-cores {
+    max-height: 450px;
+    max-width: 810px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.coresterciarias {
+    background-color: var(--cor2);
+    padding: 20px;
+    columns: 2;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.473);
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.274);
+}
+.coresterciarias > li {
+    padding: 5px;
+    list-style: square;
+    margin-left: 15px;
+}
+.circulo-cromatico {
+    max-width: 700px;
+    max-height: 700px;
+    display: block;
+    text-align: center;
+    margin: auto;
+
+}
+.paleta-flor {
+    max-width: 400px;
+    max-height: 600px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.cor-complementar {
+    max-width: 600px;
+    max-height: 600px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.combinacoes-cores {
+    max-height: 600px;
+    max-width: 600px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.cor-analoga {
+    max-height: 600px;
+    max-width: 600px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.cores-triadicas {
+    max-width: 450px;
+    max-height: 450px;
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+.video-guararapes {
+position: relative;
+padding-bottom: 56%;
+background-color: var(--cor2);
+margin: 0px -20px 0px -20px;
+}
+.video-guararapes > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0px 20px;
+}
+/*Propriedades da História da Internet*/
+.guerra-fria {
+    max-width: 800px;
+    max-height: 500px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.logo-darpa {
+    max-width: 450px;
+    max-height: 220px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.lista-chaveamento-pacotes {
+    padding: 15px;
+    font-size: 1.1em;
+    margin-left: 25px;
+}
+.list-chaveamento-pacotes li {
+    padding: 10px;
+    margin: 5px;
+}
+.arpanet-map {
+    max-width: 800px;
+    max-height: 500px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.milnet-arpanet {
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.vint-kahn {
+    max-width: 700px;
+    max-height: 420px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.tim-berners-lee {
+    max-width: 800px;
+    max-height: 537px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Propriedades dos elementos da página "Como funciona a internet" */
+.internet {
+    max-width: 800px;
+    max-height: 450px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.lista-multiplos {
+    margin: 20px 0px 10px 35px;
+    padding: 5px 0px;
+    font-size: 1.1em;
+    color: var(--cor1);
+    border-radius: 10px;
+}
+.multiplos-bit-bytes {
+    font-weight: bold;
+}
+.lista-multiplos li {
+    padding: 5px;
+    margin: 5px 0px 0px 5px;
+    list-style-position: inside;
+}
+.minusculo-maiusculo {
+    color: red;
+    font-weight: bold;
+}
+.bits-bytes {
+    max-width: 800px;
+    max-height: 418px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.diferenca-bit-byte {
+    max-height: 270px;
+    max-width: 782px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.onda-digital {
+    max-width: 600px;
+    max-height: 222px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.cabos-submarinos {
+    max-width: 700px;
+    max-height: 484px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.video-cabos-submarinos {
+position: relative;
+padding-bottom: 56%;
+background-color: var(--cor2);
+margin: 0px -20px;
+
+}
+.video-cabos-submarinos > iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+    padding:0px 20px;
+}
+.analogico-digital {
+    max-width: 604px;
+    max-height: 404px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.gateway {
+    max-width: 600px;
+    max-height: 555px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.cliente-e-servidor {
+    max-width: 600px;
+    max-height: 360px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.lista-de-servidores {
+    margin-left: 30px;
+    padding: 10px;
+}
+.lista-de-servidores li {
+    padding: 5px;
+}
+.exemplo-ip {
+    margin-left: 20px;
+}
+.dns {
+    max-width: 700px;
+    max-height: 350px;
+    display:block;
+    text-align: center;
+    margin: auto;
+}
+.domain-img {
+    max-width: 700px;
+    max-height: 394px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.top-level-domain {
+    max-width: 700px;
+    max-height: 500px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.sub-dominio {
+    max-width: 600px;
+    max-height: 315px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.sub-dominio-lista {
+    margin-left: 30px;
+    padding: 30px;
+}
+.sub-dominio-lista li {
+    padding: 8px;
+
+}
+.tutorial-email {
+position: relative;
+padding-bottom: 56%;
+margin: 0px -20px;
+background-color: var(--cor2);
+}
+.tutorial-email > iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0px 20px;
+}
+
+/* propriedades da págona "Tipografia" */
+.tipografia-logo {
+    max-width: 781px;
+    max-height: 390px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.johannes-gutenberg {
+    max-height: 508px;
+    max-width: 400px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.video-prensa-movel {
+    position: relative;
+    background-color: var(--cor2);
+    margin: 0px -20px 0px -20px;
+    padding-bottom: 56%;
+
+}
+.video-prensa-movel iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0px 20px 0px 20px;
+
+}
+.letras {
+    max-width: 320px;
+    max-height: 75px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.fonte-open-sans {
+    max-width: 440px;
+    max-height: 450px;
+    display: block;
+    margin: auto;
+}
+.amor-tipografia {
+    max-height: 215px;
+    max-width: 345px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.poema-tipografia {
+    max-height: 334px;
+    max-width: 615px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.anatomia-tipo-1, .anatomia-tipo-2 {
+    max-width: 660px;
+    max-height: 185px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.anatomia-tipo-2 {
+    margin-bottom: 30px;
+}
+.lista-altura-dos-tipos {
+    padding: 25px;
+    margin-left: 10px;
+    list-style: upper-latin;
+
+}
+.lista-altura-dos-tipos > li {
+    margin-top: 8px;
+}
+.fonte-serifada {
+    max-height: 145px;
+    max-width: 715px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.fonte-sans-serif {
+    max-width: 600px;
+    max-height: 315px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.fonte-mono {
+    max-height: 386pxpx;
+    max-width: 464px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.fonte-display {
+    max-width: 750px;
+    max-height: 188px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.fonte-cursiva {
+    max-width: 790px;
+    max-height: 292px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.video-maira-lemos {
+    position: relative;
+    padding-bottom: 56%;
+    background-color: var(--cor2);
+    margin: 0px -20px 0px -20px;
+
+}
+.video-maira-lemos > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 0px 20px;
+
+}
